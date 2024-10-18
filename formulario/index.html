@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form id="Cadastroform">
+        <label for="nome">Nome:</label>
+        <input type="text"  id="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="text"  id="email" required>
+        <label for="telefone">Telefone:</label>
+        <input type="text"  id="telefone" required>
+        <button type="button" onclick="adicionarcadastro()">Adicionar Cadastro</button>
+
+    </form>
+    <h2>Cadastro:</h2>
+
+    <table id="datagride">
+        <thead>
+            <tr>
+                <th> Nome </th>
+                <th> E-mail </th>
+                <th> Telefone </th>
+                <th> Ações </th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+    
+
+    
+</body>
+</html>
