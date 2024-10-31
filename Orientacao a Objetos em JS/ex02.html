@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> 02 - class Animal c/ constructor </title>
+    </head>
+
+    <body>
+        <script>
+            class Animal{
+                constructor(nome){
+                    this.nome = nome;
+                }
+                fazerSom(){
+                    document.write('${this.nome} faz um som.');
+                }
+            }
+
+            class Cachorro extends Animal{
+                fazerSom(){
+                    document.write(`${this.nome} late.`);
+                }
+            }
+
+            class Gato extends Animal{
+                fazerSom(){
+                    document.write(`${this.nome} mia.`);
+                }
+            }
+
+            const cachorro = new Cachorro('Rex');
+            const gato = new Gato('Mia');
+
+            cachorro.fazerSom(); //Rex Late.
+            gato.fazerSom(); //Mia mia.
+        </script>
+    </body>
+</html>
