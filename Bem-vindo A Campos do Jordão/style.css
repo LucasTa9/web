@@ -1,0 +1,815 @@
+
+  
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 ;
+    overflow: hidden;
+}
+.input1{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+.input1 input{
+    display: none;
+}
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+.slide-box img{
+    width: 100%;
+    height: 900px;
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 68%;
+    display: flex;
+    justify-content: center;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid  transparent;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{ 
+    background-color:  transparent;
+}
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: transparent;
+}
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+.titulo{
+   
+    margin: 80px 0%;
+}
+nav {
+    background-color: #1e8664;
+    z-index: 1;
+    padding: 20px;   
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    width: 100%;    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 6, 7);
+    margin: 0 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+nav a:hover{
+    color: chocolate;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1e8664;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+footer p{
+    margin-top: 2px;
+}
+.container{
+    padding: 0 10px;   
+}
+.imagem1{
+    text-align: center;
+}
+.c1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 100px;    
+    padding: 10px 0%;
+    flex-direction: row;
+    
+}
+.d1 img{
+    justify-content: center;
+    height: 300px;
+    width: 300px;   
+    padding: 50px 100px;
+    border-radius: 50%;    
+}
+.d1{
+    margin: 0 10px;
+    flex: 1;    
+    justify-content: space-around;   
+    border-radius:.5rem ;
+    background-color: rgb(169, 240, 240);
+}
+.d1 h3,h2{
+    padding: 0 50px;
+}
+.d1 p{
+    padding: 0 50px;
+}
+.imagemo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.onça{
+    display: flex;
+    align-items: end;
+}
+footer a:hover{
+    color: chocolate;
+}
+footer img:hover{
+    color: chocolate;
+}
+.c2{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 100px;    
+    padding: 10px 0%;
+    flex-direction: row;    
+}
+.d2 img{
+    justify-content: center;
+    height: 300px;
+    width: 300px;    
+    padding: 50px 100px;
+    border-radius: 50%;    
+}
+.d2{
+    margin: 0 10px;
+    flex: 1;    
+    justify-content: space-between;    
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);
+}
+.d2 h3,h2{
+    padding: 0 50px;
+}
+.d2 p{
+    padding: 0 50px;
+}
+.c3{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;   
+    padding: 10px 0%;
+    flex-direction: row;   
+}
+.d3 img{   
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+    padding: 50px 150px;      
+}
+.d3{
+    margin: 0 300px;
+    border-radius:.5rem ;
+    
+    background-color: rgb(169, 240, 240);
+}
+.d3 h2{
+    padding: 0;
+}
+.d3 p{
+    padding: 0 50px;
+}
+.h2fora{
+    padding: 0 0;
+}
+.mainsobre{
+    background-color: rgb(169, 240, 240);
+    margin: 0 50px;
+}
+.mainsobre img {
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid  #1e8664 ;
+}
+.mainsobre p{
+    padding: 0 100px;
+}
+.h1dornel{
+    padding: 0;
+}
+
+.lucas{
+    display: flex;
+    justify-content: center; 
+}
+  
+.dornellis{
+    display: flex;
+    justify-content: center; 
+}
+.sobrenos{
+    padding: 150px 15px;
+    margin: 0 300px ;
+    
+}
+.h2lucas{
+    padding: 0 0;
+}
+.pinheiro{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem1 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto1 h2{
+    padding: 0 50px;
+}
+.texto1 p{
+    padding: 0 50px;
+}
+.biomain{
+    padding: 150px 15px;
+    margin: 0 100px ;
+    font-family: "Bebas Neue", sans-serif; 
+}
+.macacop{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);    
+}
+.imagem2 img{
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;  
+}
+.texto2 h2{
+    padding: 0 50px;
+}
+.texto2 p{
+    padding: 0 50px;
+}
+.suçuarana{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem3 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto3 h2{
+    padding: 0 50px;
+}
+.texto3 p{
+    padding: 0 50px;
+}
+.cateto{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem4 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto4 h2{
+    padding: 0 50px;
+}
+.texto4 p{
+    padding: 0 50px;
+}
+.papagaio{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem5 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto5 h2{
+    padding: 0 50px;
+}
+.texto5 p{
+    padding: 0 50px;
+}
+.caneleiro{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem6 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto6 h2{
+    padding: 0 50px;
+}
+.texto6 p{
+    padding: 0 50px;
+}
+.papamoscas{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem7 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto7 h2{
+    padding: 0 50px;
+}
+.texto7 p{
+    padding: 0 50px;
+}
+.grimpeiro{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem8 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto8 h2{
+    padding: 0 50px;
+}
+.texto8 p{
+    padding: 0 50px;
+}
+.beijaflor{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem9 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto9 h2{
+    padding: 0 50px;
+}
+.texto9 p{
+    padding: 0 50px;
+}
+.araucaria{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagem10 img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.texto10 h2{
+    padding: 0 50px;
+}
+.texto10 p{
+    padding: 0 50px;
+}
+
+
+.mainhistoria img{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    
+}
+.sobrehistoria{
+    padding: 150px 15px;
+    margin: 0 100px ;
+
+}
+.mapaturismo img{
+    height: 550px;
+    width: 900px;
+    
+}
+.sobreturismo{
+    padding: 150px 15px;
+    margin: 0 100px ;
+    
+    
+}
+.personalizaturismo{
+    background-color: #1e8664;
+}
+.Capivari{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagemcapi img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.textocapi h2{
+    padding: 0 50px;
+}
+.textocapi p{
+    padding: 0 50px;
+}
+.pedradobau{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagempedrabau img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.textopedrabau h2{
+    padding: 0 50px;
+}
+.textopedrabau p{
+    padding: 0 50px;
+}
+.parquestadual{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagemparque img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.textoparque h2{
+    padding: 0 50px;
+}
+.textoparque p{
+    padding: 0 50px;
+}
+.palacio{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagempalacio img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.textopalacio h2{
+    padding: 0 50px;
+}
+.textopalacio p{
+    padding: 0 50px;
+}
+.itapeva{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 100px;
+    padding: 50px 150px;
+    border-radius:.5rem ;
+    background-color:rgb(169, 240, 240);      
+}
+
+.imagemitapeva img{  
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;   
+}
+
+
+.textotapeva h2{
+    padding: 0 50px;
+}
+.textotapeva p{
+    padding: 0 50px;
+}
+    .menu-mobile{
+        background-color: #1e8664;
+        backdrop-filter: blur(10px);
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        display: none;
+        position: absolute;
+    }
+    .menu-mobile nav a{
+        color: black;
+        display: block;
+        padding: 10px 30px;
+        font-size: 16pt;
+
+    }
+    .menu-mobile nav a:hover{
+        background-color: chocolate;
+    }  
+    .menu-mobile{
+        display: none;
+        background-color: #538393;
+        z-index: 999999;
+    }
+    
+    .menu-mobile label{
+        margin: 8px 10px;
+        color: #fff;
+    }
+    
+    #menuToggle{
+        display: none;
+    }
+    
+    .nav-mobile{
+        background-color: #538393fa;
+        color: #fff;
+        text-align: right;
+        height: 100vh;
+        left: -100vw; /* tamanho do menu */
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        padding-top: 10px;
+    }
+    
+    .nav-mobile label{
+        margin: 15px;
+    }
+    
+    .nav-mobile ul{
+        padding: 10px;
+    }
+    
+    .nav-mobile ul li{
+        margin: 10px 0;
+    }
+    
+    .nav-mobile ul li a{
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    
+    #menuToggle:checked + label + .nav-mobile{
+        left: 0;
+        transition: 0.5s;
+    }
+@media screen and (min-width: 300px) and (max-width: 1020px){
+    .menu-mobile {
+        display: flex;
+        position: fixed;
+        width: 0px;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .onça{
+        display:none;
+    }
+    .tituloindex{
+        padding: 10px 0;
+    }
+    
+    .d1 img{
+        padding: 0 0px;
+        width: 100%;
+        height: 150px;
+    }
+    .d1{
+        padding:none;
+        margin: 10px;
+        
+    }
+    .d1 p{
+        padding:10px 0px;
+    }
+    .nome2{
+        padding:0;
+    }
+    
+    .d2 img{
+        padding: 0 0px;
+        width: 100%;
+        height: 150px;
+    }
+    .d2{
+        padding:none;
+        margin: 10px;
+        
+    }
+    .d2 p{
+        padding:10px 0px;
+    }
+    .nomeempresa{
+        padding:0;
+    }
+    
+    .d3 img{
+        padding: 0 0px;
+        width: 100%;
+        height: 150px;
+    }
+    .d3{
+        padding:none;
+        margin: 10px;
+        
+    }
+    .d3 p{
+        padding:10px 0px;
+    }
+    footer a:hover{
+        color: chocolate;
+    }
+    .c1{
+        flex-direction: column;
+    }
+    nav{
+       flex-direction: row;
+    }
+    .slide-box img{
+        width: 100%;
+        display: flex;
+    }
+    nav a{
+        margin: 0 10px;
+    }
+    section.slider{
+        padding: 0 0px;   
+    }
+    nav a:hover{
+        color: chocolate;
+    }
+    .d2 img{
+        padding: 0 0px;
+        width: 100%;
+        height: 150px;
+    }
+    .d2{
+        padding: 30px 0;
+        margin: 10px;
+    }
+    .c2{
+        flex-direction: column;
+    }
+
+    .d3 img{
+        padding: 0 0px;
+        width: 100%;
+        height: 150px;
+    }
+    .d3{
+        padding: 30px 0;
+        margin: 10px;
+    }
+    .c3{
+        flex-direction: column;
+    }
+    .biomain{
+        padding: 0px;
+        margin: 100px 100px;
+        font-family: "Bebas Neue", sans-serif;
+
+    }
+    .pinheiro{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    .imagem1 img{
+        height: 100px;
+        width: 100px;
+    }
+    .texto1 h2{
+        padding: 0 10px;
+    }
+    .texto1 p{
+        padding: 0 10px;
+    }
+   
+
+}
+
+
+
+
